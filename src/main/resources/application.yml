@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql:///cs1903nz?serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 192.168.80.1
+    port: 6379
+
+
